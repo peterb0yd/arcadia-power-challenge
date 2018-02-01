@@ -60,7 +60,6 @@ user_input.send_keys account["username"]
 # fill in password input
 pw_input = driver.find_element(id: 'password')
 pw_input.send_keys account["password"]
-pw_input.submit
 
 # submit form
 form_button = driver.find_element(id: 'SignIn')
